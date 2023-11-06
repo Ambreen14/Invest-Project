@@ -1,6 +1,7 @@
 body {
   margin: 0px;
   padding: 0px;
+  overflow-x: hidden;
 }
 
 .nav-logo img {
@@ -208,16 +209,13 @@ body {
   border-radius: 3rem;
   height: 100%;
   height: 400px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
-
 .item-wrapper h5 {
   font-size: 1.8rem;
   color: #ffffff;
   font-weight: 800;
 }
-
 .item-wrapper p {
   color: #ffffff;
   font-size: 1.4rem;
@@ -227,8 +225,7 @@ body {
   position: absolute;
   left: 0;
   bottom: 0;
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   padding: 2rem;
   padding-bottom: 1rem;
   border-radius: 30px;
@@ -249,4 +246,6 @@ body {
   font-size: 20px;
   line-height: 1.5;
   color: #232323;
-}/*# sourceMappingURL=stylesheet.css.map */
+}
+
+/*# sourceMappingURL=stylesheet.css.map */
